@@ -146,6 +146,74 @@
 </details>
 <br />
 
+## Lecture 3
+
+<details>
+    <summary>computers use ___ to represent information</summary>
+    voltages
+</details>
+
+<details>
+    <summary>Modern processor's voltages are limited to around ___ to reduce power consumption</summary>
+    1.5V
+</details>
+
+<details>
+    <summary>Decimal numbers onsist of digits from ___  to ___</summary>
+    0 <br />
+    9 <br />
+</details>
+
+<details>
+    <summary>What is the base of decimal numbers?</summary>
+    10
+</details>
+
+<details>
+    <summary>Binary numbers consist of only ___ and ___</summary>
+    0 <br />
+    1 <br />
+</details>
+
+<details>
+    <summary>what is the base of binary numbers?</summary>
+    2
+</details>
+
+<details>
+    <summary>How many digits does Hexadecimal use?</summary>
+    16 digits
+</details>
+
+<details>
+    <summary>What is the base of Hexadecimal?</summary>
+    16
+</details>
+
+<details>
+    <summary>How do you represent voltages in boolean value?</summary>
+    0 voltage => false <br />
+    1 voltage => true <br />
+</details>
+
+<details>
+    <summary>How many ways do we have to express mathematical functions?</summary>
+    1. <b>expression</b>: finite but not unique<br />
+    2. <b>function table</b>: unique but infinite<br />
+</details>
+
+<details>
+    <summary>literal in boolean expression</summary>
+    any occurrence of an input variable or its complement.
+</details>
+
+<details>
+    <summary>truth table</summary>
+    shows all possible inputs and outputs of a Boolean function
+</details>
+
+<br />
+
 ## Abbrevations
 <details>
     <summary>ALU</summary>
