@@ -308,6 +308,249 @@
 
 <br />
 
+## Lecture 5
+<details>
+    <summary>How many major parts are in CPU?</summary>
+    1. Register Set <br />
+    2. ALU <br />
+    3. Control <br />
+</details>
+
+<details>
+    <summary>How many modes are there in 8086?</summary>
+    1. Minimum mode <br />
+    2. Maximum mode <br />
+</details>
+
+<details>
+    <summary>What is minimum mode in 8086?</summary>
+    the processor works in a single processor environment
+</details>
+
+<details>
+    <summary>What is maximum mode in 8086?</summary>
+    the processor works in a multiprocessor environment
+</details>
+
+<details>
+    <summary>how many function units is 8086 divided into?</summary>
+    1. Bus Interface Unit(BIU)
+    2. Execution Unit (EU)
+</details>
+
+<details>
+    <summary>BIU</summary>
+    This unit fetches instructions, reads and writes data from memory and ports
+</details>
+
+<details>
+    <summary>The ___ interfaces the 8086 to the outside world</summary>
+    BIU
+</details>
+
+<details>
+    <summary>Bus Control Circuitry</summary>
+    generates all the bus control signals such as READ, WRITE for memroy or I/O
+</details>
+
+<details>
+    <summary>How many segment registers does 8086 BIU have?</summary>
+    The BIU has four 16 bit registers: <br />
+    1. Code Segment <br />
+    2. Stack Segment <br />
+    3. Data Segment <br />
+    4. Extra Segment <br />
+</details>
+
+<details>
+    <summary>How many bits does each register of the BIU use?</summary>
+    16 bits
+</details>
+
+<details>
+    <summary>Execution Unit</summary>
+    is responsible for executing the instructions of the programs and to carry out the required processing
+</details>
+
+
+<details>
+    <summary>Control Unit</summary>
+    responsible for the coordination of all other units of the processor.
+</details>
+
+<details>
+    <summary>Instruction decoder</summary>
+    translates the instructions fetched from the memory into a series of actions that are carried out by the EU.
+</details>
+
+<details>
+    <summary>ALU</summary>
+    perfomrs various arithmetic and logical operations over the data.
+</details>
+
+
+<details>
+    <summary>General Registers</summary>
+    used for temporary storage and manipulation of data and instructions.
+</details>
+
+<details>
+    <summary>Flag register</summary>
+    depending upon hte vlaue of result after any arithmetic and logical operation the flag bits become set (1) or reset (0)
+</details>
+
+<details>
+    <summary>____ is a special purpose register</summary>
+    Flag Register
+</details>
+
+<details>
+    <summary>General purpose regisers</summary>
+    used to store temporary data within the microprocessor
+</details>
+
+<details>
+    <summary>How many general purpose registers are in 8086?</summary>
+    8
+</details>
+
+<details>
+    <summary>What is AX register?</summary>
+    this is the accumulator used for arithmetical and logical instructions
+</details>
+
+<details>
+    <summary>What is BX regsiter?</summary>
+    This is the base register used to store the value of the offset.
+</details>
+
+<details>
+    <summary>What is CX register?</summary>
+    This is the counter register used in looping and rotation.
+</details>
+
+<details>
+    <summary>What is DX register?</summary>
+    This is the data register used in multiplication and input/output port addressing.
+</details>
+
+<details>
+    <summary>What is SP?</summary>
+    It points to the top most item of the stack, if the stack is empty it points to FFFE.
+</details>
+
+<details>
+    <summary>What does SP's offset address relative to?</summary>
+    Stack Segment
+</details>
+
+<details>
+    <summary>What is BP?</summary>
+    It is primary used in accessing parameters passed by the stack.
+</details>
+
+<details>
+    <summary>What does BP's offset address relative to?</summary>
+    Stack Segment
+</details>
+
+<details>
+    <summary>What is SI?</summary>
+    used in the pointer addressing of data nad as a source in some string related operatins.
+</details>
+
+<details>
+    <summary>What does SI's offset address relative to?</summary>
+    Data segment
+</details>
+
+<details>
+    <summary>What is DI?</summary>
+    used in the pointer addressing of data and as a destination in some string related operations.
+</details>
+
+<details>
+    <summary>What does DI's offset address relative to?</summary>
+    Extra segment
+</details>
+
+<details>
+    <summary>Segmentation</summary>
+    is the process in which the main memory of the computer is logically divided into different segments
+</details>
+
+<details>
+    <summary>What is the offset address of CS?</summary>
+    IP
+</details>
+
+<details>
+    <summary>What is the offset address of SS?</summary>
+    SS and SP
+</details>
+
+<details>
+    <summary>What is the offset address of DS?</summary>
+    SI and DI
+</details>
+
+<details>
+    <summary>What is the offset address of ES?</summary>
+    DI
+</details>
+
+<details>
+    <summary>What is CS?</summary>
+    All programs instructions are pointed to by the CS in memory
+</details>
+
+<details>
+    <summary>What is SS?</summary>
+    a register that points to the current stack
+</details>
+
+<details>
+    <summary>What is DS?</summary>
+    a register that points to current data segment
+</details>
+
+<details>
+    <summary>What is ES?</summary>
+    a register that points to the extra segment
+</details>
+
+<details>
+    <summary>What is CS?</summary>
+    All programs instructions are pointed to by the CS in memory
+</details>
+
+<details>
+    <summary>What is IP?</summary>
+    a register that is responsible for holding the 16 bit offset of the next code byte within the code segment.
+</details>
+
+<details>
+    <summary>What is Flag register?</summary>
+    A flag is a flip flop which indicates some conditions produced by execution of an instruction.
+</details>
+
+<details>
+    <summary>What is Physical address?</summary>
+    the 20 bit address that is actually put on the address pins.
+</details>
+
+<details>
+    <summary>What is offset address?</summary>
+    tells us how far the location is from the beginning.
+</details>
+
+<details>
+    <summar>What is Logical address?</summary>
+    consists of a segment value and offset address
+</details>
+
+<br />
+
 ## Formula
 
 ###### Address Line
@@ -315,6 +558,35 @@
 1 Mega = 2<sup>20</sup> <br />
 1 Giga = 2<sup>30</sup> <br />
 exapmle: 16 bit address line = 2<sup>16</sup> = 64 k
+
+<br />
+
+###### Address Calculation
+Physical_address = x_Segment * 10<sup>H</sup> + offset <br />
+<br />
+x_segment = $\frac{physical_address - offset}{10H}$ <br />
+<br />
+Offset = Physical_address  - (x_segment * 10<sup>H</sup>) <br />
+<br />
+Lower_address = (x_segment * 10<sup>H</sup>) + 0000<sup>H</sup> <br />
+<br />
+Uppset_address = (x_segmet * 10<sup>H</sup>) + FFFF<sup>H</sup> <br />
+<br />
+When we say x_segment we mean:
+1. Code Segment
+1. Stack Segment
+1. Data Segment
+1. Extra Segment
+<br />
+
+When we say offset we mean:
+1. Instruction Pointer
+1. Stack Pointer
+1. Base Pointer
+1. Source Index
+1. Destination Index
+
+
 
 <br />
 
@@ -349,3 +621,57 @@ exapmle: 16 bit address line = 2<sup>16</sup> = 64 k
     Multiplexer
 </details>
 
+<details>
+    <summary>BIU</summary>
+    Bus Interface Unit
+</details>
+
+<details>
+    <summary>EU</summary>
+    Execution Unit
+</details>
+
+<details>
+    <summary>SP</summary>
+    Stack Pointer
+</details>
+
+<details>
+    <summary>BP</summary>
+    Base Pointer
+</details>
+
+<details>
+    <summary>SI</summary>
+    Source index
+</details>
+
+<details>
+    <summary>DI</summary>
+    Destination index
+</details>
+
+<details>
+    <summary>CS</summary>
+    Code Segment
+</details>
+
+<details>
+    <summary>SS</summary>
+    Stack Segment
+</details>
+
+<details>
+    <summary>DS</summary>
+    Data Segment
+</details>
+
+<details>
+    <summary>ES</summary>
+    Extra Segment
+</details>
+
+<details>
+    <summary>IP</summary>
+    Instruction Pointer
+</details>
