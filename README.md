@@ -623,6 +623,211 @@
     example: <br />
     <img src="images/based_indexed_relative_addressing_mode.png" />
 </details>
+<br/ >
+
+## Lecture 7 and 8
+
+<details>
+    <summary>Temporal Locality</summary>
+    states that if a resource is accessed at some point of time, then it will be accessed again in a short period of time.
+</details>
+
+<details>
+    <summary>Spatial Locality</summary>
+    states that if a resource is accessed at some point of time, then similar resources will be accessed again in the near future.
+</details>
+
+<details>
+    <summary>What type of memory is used for caches?</summary>
+    SRAM
+</details>
+
+
+<details>
+    <summary>What type of memory is used for main memory?</summary>
+    DRAM
+</details>
+
+<details>
+    <summary>What are the operations done by Cache?</summary>
+    1. lookup <br />
+    2. data read <br />
+    3. data write <br />
+    4. insert <br />
+    5. replace <br />
+    6. evict <br />
+</details>
+
+<details>
+    <summary>Cache lookup</summary>
+    Check if the memory location is present
+</details>
+
+<details>
+    <summary>Cache data read</summary>
+    read data from the cache
+</details>
+
+<details>
+    <summary>Cache data write</summary>
+    write data to the cache
+</details>
+
+<details>
+    <summary>Cache insert</summary>
+    insert a block into a cache
+</details>
+
+<details>
+    <summary>Cache replace</summary>
+    find a candidate for replacement
+</details>
+
+<details>
+    <summary>Cache evict</summary>
+    throw a block out of the cache
+</details>
+
+<details>
+    <summary>Tag array</summary>
+    saves a part of the block address such that the block can be uniquely identified.
+</details>
+
+<details>
+    <summary>Block array</summary>
+    saves the content of the block
+</details>
+
+<details>
+    <summary>What are some type of replacement policies?</summary>
+    Least recently used (LRU) <br />
+    First-in/first-out (FIFO) <br />
+    Least frequently used (LFU) <br />
+    Random <br />
+    Optimal <br />
+</details>
+
+<details>
+    <summary>What are the types of write policies?</summary>
+    <ul>
+    <li> write through </li>
+    <li> write back </li>
+    </ul>
+</details>
+
+<details>
+    <summary>write through</summary>
+    whenever we write to a cache, we also write to its lower level.
+</details>
+
+<details>
+    <summary>write back</summary>
+    we do not write to the lower level, whenever we write, we set the modified bit.
+</details>
+
+<details>
+    <summary>Local miss rate</summary>
+    it is equal to the number of misses in a cache at level $i$ divided by the total number of accesses at level $i$
+</details>
+
+<details>
+    <summary>global miss rate</summary>
+    It is equal to the number of misses in a cache at level $i$ divided by the total number of memory accesses
+</details>
+
+<details>
+    <summary>working set</summary>
+    the amount of memory, a given problem requires in a time interval.
+</details>
+
+<details>
+    <summary>How many types of misses do we have?</summary>
+    1. Compulsory misses <br />
+    2. Conflict misses <br />
+    3. Capacity misses <br />
+</details>
+
+<details>
+    <summary>Compulsory Misses</summary>
+    Misses that happen when we read in a piece of data for the first time
+</details>
+
+<details>
+    <summary>Conflict misses</summary>
+    Misses that occur due to the limited amount of associativity in a set associative or direct mapped cache. 
+</details>
+
+<details>
+    <summary>Capacity misses</summary>
+    Misses that occur due to the limited size of a cache
+</details>
+
+<details>
+    <summary>How do you solve Compulsory misses?</summary>
+    1. increase the block size <br />
+    2. prefetch the memory locations that will be accessed in the near future. <br />
+</details>
+
+<details>
+    <summary>How do you solve Conflict misses?</summary>
+    1. increase the associativity of the cache <br />
+    2. use victim cache. <br />
+    3. write programs in a cache friendly way <br />
+</details>
+
+<details>
+    <summary>victim cache</summary>
+    small fully associative cache that stores the lines displaced by main cache.
+</details>
+
+<details>
+    <summary>How to solve capacity misses?</summary>
+    1. increase the size of the cache <br />
+    2. use better prefetching techniques. <br />
+</details>
+
+<details>
+    <summary>How many components we have in memory?</summary>
+    1. Physical memory <br />
+    2. Virtual memory <br />
+</details>
+
+<details>
+    <summary>Physical memory</summary>
+    Refers to the actual set of physical memory locations in main memory and caches.
+</details>
+
+<details>
+    <summary>Virtual memory</summary>
+    The memory space assumed by a program.
+</details>
+
+<details>
+    <summary>What is page?</summary>
+    virtual address chunks
+</details>
+
+<details>
+    <summary>What is frame?</summary>
+    physical memory chunks
+</details>
+
+<details>
+    <summary>How many set of page tables do we have in  Two level page tables?</summary>
+    1. Primary <br />
+    2. Secondary <br />
+</details>
+
+<details>
+    <summary>Shared memory</summary>
+    map two pages in each virtual address space ot the same physical frame.
+</details>
+
+<details>
+    <summary>Protection memory</summary>
+    The pages in the text section are marked as read-only.
+</details>
+
 
 <br />
 
@@ -661,7 +866,14 @@ When we say offset we mean:
 1. Source Index
 1. Destination Index
 
+<br />
 
+###### Hit ratio and effective access time for single level cache
+Hit ratio = $\frac{\text{No. times referenced words are in cache}}{\text{Total number of memory access}}$
+
+<br />
+
+Eff. access time = $\frac{\text{(hits)(times per hit) + (misses)(Time per miss)}}{\text{total number of memory access}}$
 
 <br />
 
@@ -754,4 +966,29 @@ When we say offset we mean:
 <details>
     <summary>Opcode</summary>
     Operation Code
+</details>
+
+<details>
+    <summary>LRU</summary>
+    Least recently used
+</details>
+
+<details>
+    <summary>FIFO</summary>
+    First-in/First-out
+</details>
+
+<details>
+    <summary>LFU</summary>
+    Least frequently used
+</details>
+
+<details>
+    <summary>TLB</summary>
+    Translation Lookaside Buffer
+</details>
+
+<details>
+    <summary>MMU</summary>
+    Memory Management Unit
 </details>
