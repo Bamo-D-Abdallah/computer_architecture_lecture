@@ -829,6 +829,54 @@
 </details>
 
 
+## Lecture 9
+<details>
+    <summary>strobe signal</summary>
+    indicates the availability of data.
+</details>
+
+<details>
+    <summary>What are the 4 phase of handshake?</summary>
+    1. Strobe signal for availability of data <br />
+    2. receiver asserts ack signla after it has read data <br />
+    3. the sender deasserts the strobe, and stops sending data <br />
+    4. the receiver resets the ack signal
+    
+</details>
+
+<details>
+    <summary>Which type of bus operates with a central clock signal?</summary>
+    synchronous bus
+</details>
+
+<details>
+    <summary>Which layer creates frames?</summary>
+    Data-Link layer
+</details>
+
+<details>
+    <summary>a ___ is an atomic unit of data</summary>
+    frame
+</details>
+
+
+<details>
+    <summary>How a frame is detected?</summary>
+    insert special symbols at the beginning and end of frames.
+</details>
+
+
+<details>
+    <summary>How does centralized arbiter work?</summary>
+    request -> grang -> release
+</details>
+
+
+<details>
+    <summary>How does decentralized arbiter work?</summary>
+    The arbiter injects a token and passed between devices till last device destroyes it
+</details>
+
 <br />
 
 ## Formula
