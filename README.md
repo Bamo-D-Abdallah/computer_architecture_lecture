@@ -520,11 +520,6 @@
 </details>
 
 <details>
-    <summary>What is CS?</summary>
-    All programs instructions are pointed to by the CS in memory
-</details>
-
-<details>
     <summary>What is IP?</summary>
     a register that is responsible for holding the 16 bit offset of the next code byte within the code segment.
 </details>
@@ -551,10 +546,10 @@
 
 <br />
 
-<details>
-    <summary></summary>
-    All programs instructions are pointed to by the CS in memory
-</details>
+## Lecture 6
+
+
+<br />
 
 ## Formula
 
