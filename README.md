@@ -1,7 +1,7 @@
 ## Lecture 1
 <details>
     <summary>Computer Architecture</summary>
-    is teh study of building entire computer systems.
+    is the study of building entire computer systems.
 </details>
 
 <details>
@@ -545,11 +545,16 @@
 </details>
 
 <details>
-    <summar>What is Logical address?</summary>
+    <summary>What is Logical address?</summary>
     consists of a segment value and offset address
 </details>
 
 <br />
+
+<details>
+    <summary></summary>
+    All programs instructions are pointed to by the CS in memory
+</details>
 
 ## Formula
 
@@ -674,4 +679,9 @@ When we say offset we mean:
 <details>
     <summary>IP</summary>
     Instruction Pointer
+</details>
+
+<details>
+    <summary>Opcode</summary>
+    Operation Code
 </details>
