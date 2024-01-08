@@ -548,6 +548,81 @@
 
 ## Lecture 6
 
+<details>
+    <summary>most of the instructions of 8086 consists of ____ and ____</summary>
+    Opcode <br />
+    Operand <br />
+</details>
+
+<details>
+    <summary>Opcode</summary>
+    every instruction has a unique 6-bit opcode
+</details>
+
+<details>
+    <summary>Every instruction has a unique __ bit opcode</summary>
+    6
+</details>
+
+<details>
+    <summary>What is an instruction example that occupies only one byte?</summary>
+    HLT
+</details>
+
+<details>
+    <summary>Immediate addressing mode</summary>
+    actual data is used as the operand. <br />
+    example: <br />
+    <img src="images/immediate_addressing_mode.png" />
+</details>
+
+
+<details>
+    <summary>Register addressing mode</summary>
+    the operand is stored in the register itself<br />
+    example: <br />
+    <img src="images/register_addressing_mode.png" />
+</details>
+
+
+<details>
+    <summary>Direct addressing mode</summary>
+    the address of the operand is specified in the instruction<br />
+    example: <br />
+    <img src="images/direct_addressing_mode.png" />
+</details>
+
+
+<details>
+    <summary>Register indirect addressing mode</summary>
+    the location of an operand is held in a register<br />
+    example: <br />
+    <img src="images/register_indirect_addressing_mode.png" />
+</details>
+
+
+<details>
+    <summary>Based relative addressing mode</summary>
+    the address specified by indicating its distance from another address<br />
+    example: <br />
+    <img src="images/based_relative_addressing_mode.png" />
+</details>
+
+
+<details>
+    <summary>Indexed relative addressing mode</summary>
+    the operand's offset is the sum of the content of an index resgier SI or DI and a 8bit or 16bit displacement<br />
+    example: <br />
+    <img src="images/indexed_relative_addressing_mode.png" />
+</details>
+
+
+<details>
+    <summary>Based indexed relative addressing mode</summary>
+    it is the sum of base register and index register<br />
+    example: <br />
+    <img src="images/based_indexed_relative_addressing_mode.png" />
+</details>
 
 <br />
 
