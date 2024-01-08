@@ -30,6 +30,7 @@
     <summary>Computer Organization</summary>
     deals with **structural relationships** that are **not visible to the programmer**
 </details>
+<br />
 
 ## Lecture 2
 <details>
@@ -138,6 +139,7 @@
     <summary>CISC</summary>
     implements complex instructions that are highly irregular, take multiple operands.
 </details>
+<br />
 
 ## Abbrevations
 <details>
