@@ -212,6 +212,11 @@
     shows all possible inputs and outputs of a Boolean function
 </details>
 
+<details>
+    <summary>a function with n variables has __ possible combinations of inputs</summary>
+    2<sup>n</sup>
+</details>
+
 <br />
 
 ## Abbrevations
