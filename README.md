@@ -110,6 +110,11 @@
 </details>
 
 <details>
+    <summary>Complete in ISA</summary>
+    It should be able to implement all the programs that users may write.
+</details>
+
+<details>
     <summary>Concise in ISA</summary>
     The instruction set should have a limited size 32 - 1000 instructions.
 </details>
@@ -120,7 +125,7 @@
 </details>
 
 <details>
-    <summary>Simple</summary>
+    <summary>Simple in ISA</summary>
     should not be very compliated
 </details>
 
