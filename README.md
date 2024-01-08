@@ -219,6 +219,105 @@
 
 <br />
 
+## Lecture 4
+<details>
+    <summary>digital circuits are constructed with ___</summary>
+    Integrated Circuits
+</details>
+
+<details>
+    <summary>Decoder</summary>
+    a combinational circui that converts binary information from the n coded inputs to a maximum of 2<sup>n</sup> unique outputs
+</details>
+
+<details>
+    <summary>Toggle Switch</summary>
+    Foldable Content[enter image description here][1]
+</details>
+
+<details>
+    <summary>Encoder</summary>
+    inverse operation of a decoder
+</details>
+
+<details>
+    <summary>Multiplexer(MUX)</summary>
+    Foldable Content[enter image description here][1]
+</details>
+
+<details>
+    <summary>Register</summary>
+    A group of flip-flops with each flip-flo p capable of storing one bit of information
+</details>
+
+<details>
+    <summary>Shift Register</summary>
+    A register capable of shifting its binary information in one or both directions.
+</details>
+
+<details>
+    <summary>unidirectional shift register</summary>
+    a register capable of shifting in one direction only
+</details>
+
+<details>
+    <summary>bidirectional shift register</summary>
+    A register that can shift in both directions. 
+</details>
+
+<details>
+    <summary>Binary Counter</summary>
+    A register goes thorugh a predetermined sequence of state.
+</details>
+
+<details>
+    <summary>Memory Unit</summary>
+    A collection of storage cells together with associated circuits needed to transfer information in and out of storage.
+</details>
+
+<details>
+    <summary>Word</summary>
+    A group of bits
+</details>
+
+<details>
+    <summary>Byte</summary>
+    A group of 8 bits
+</details>
+
+<details>
+    <summary>Nibble</summary>
+    A group of 4 bits
+</details>
+
+<details>
+    <summary>Which type of memory is volatile?</summary>
+    RAM
+</details>
+
+<details>
+    <summary>Which type of memory is non-volatile</summary>
+    ROM
+</details>
+
+<details>
+    <summary>What are the two operations that RAM can perform?</summary>
+    1. Read <br />
+    2. Write <br />
+</details>
+
+<br />
+
+## Formula
+
+###### Address Line
+1 Kilo = 2<sup>10</sup> <br />
+1 Mega = 2<sup>20</sup> <br />
+1 Giga = 2<sup>30</sup> <br />
+exapmle: 16 bit address line = 2<sup>16</sup> = 64 k
+
+<br />
+
 ## Abbrevations
 <details>
     <summary>ALU</summary>
@@ -244,3 +343,9 @@
     <summary>CISC</summary>
     Complex instructions set computer
 </details>
+
+<details>
+    <summary>MUX</summary>
+    Multiplexer
+</details>
+
